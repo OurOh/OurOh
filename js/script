@@ -1,0 +1,64 @@
+
+/*
+function myFunc(p1, p2){
+    return (p1 + p2);
+
+}
+
+const result = myFunc(12,33) * 4;
+console.log(result);
+
+
+/*2
+let p1 = 20;
+
+function myFunc(p1, p2) {
+    return p1 + p2;
+}
+console.log(p1);
+console.log(myFunc(30,40));
+*/
+
+/*
+var num = 10;
+{
+    var num = 2;
+}
+console.log(num); //2
+
+let num2 = 10;
+{
+    let num2 = 2; // 지역변수 if(){let dd} dd를 사용할 수 없다. function(){let asd=''
+}
+console.log(num2);
+*/
+
+
+
+//함수 호이스팅 == 함수를 먼저 읽는 것이다.//
+
+
+/*
+// 콘솔에 문자열 출력하기
+console.log("Hello, world!");
+
+// 변수를 사용하여 출력하기
+let name = "Alice";
+console.log("Hello, " + name + "!");
+
+// 숫자 계산 결과 출력하기
+let a = 10;
+let b = 5;
+console.log("a + b =", a + b);
+*/
+
+//myFunc 란 함수를 만들어서
+
+
+
+
+function myFunc(name, area){
+    console.log("안녕하세요" + area + "사는" + name + "입니다.")
+}
+myFunc("김철수", "부산");
+myFunc("홍길동", "김포");

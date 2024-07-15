@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+<style>
+    *{box-sizing: border-box;}
+    body{
+        margin: 0;
+        background: #ddd;
+        font-family: "Black Han Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+
+    }
+    .container{
+        width: 800px;
+        background: #fff;
+        border: 1px solid #666;
+        padding: 60px 80px;
+        margin: auto;
+        border-radius: 20px;
+        }
+    .container::after{
+        content: "";
+        display: table;
+        clear: both;
+    }    
+    h1{
+        text-align: center;
+        margin: 50px;
+    }
+    .text-center{
+
+    }
+    .col{
+        width: 50%;
+        float: left;
+    }
+
+
+
+    .box{
+        width: 156px;
+        height: 205px;
+        border: 1px solid #000;
+        margin: 20px auto;
+        background-image: ;
+    }
+    
+</style>
+</head>
+<body>
+    <h1>승안의 가위, 바위, 보 게임</h1>
+    <div class="container">
+        <div class="char">
+            <h2 class="text-center">캐릭터 선택</h2>
+            <p>내 캐릭터를 선택하세요.</p>
+            <div class="img-chr">
+                <img src="/0715/images/마리오파티.webp" alt="마리오파티" width="100%">
+            </div>
+        </div>
+    </div>
+
+<!----------------------------------------------------------------
+    <button onclick="game(0)">가위</button>
+    <button onclick="game(1)">바위</button>
+    <button onclick="game(2)">보</button>
+    <script>
+    function game(n) {
+        let rsp = ["가위", "바위", "보"];
+        let com = Math.floor(Math.random() * 3);
+        document.write("나: " + rsp[n] + " / 컴퓨터: " + rsp[com]);
+}
+   </script>
+------------------------------------------------------------------>
+
+<script>
+
+var mecher, comchar;
+let coordx = [0,158, 316, 474];
+let coordy = [0,208, 416];
+
+function char(n){
+    
+}
+
+
+
+
+
+
+
+switch(n){
+    case 0:
+        coordx = 0;
+        coordx = 0;
+    break;
+    case 1:
+        coordx = 0;
+        coordx = 0;
+    break;
+    case 2:
+        coordx = 0;
+        coordx = 0;
+    break;
+    case 3:
+        coordx = 0;
+        coordx = 0;
+    break;
+    case 4:
+        coordx = 0;
+        coordx = 0;
+    break;
+    case 5:
+        coordx = 0;
+        coordx = 0;
+    break;
+    case 6:
+        coordx = 0;
+        coordx = 0;
+    break;
+    case 7:
+        coordx = 0;
+        coordx = 0;
+    break;
+    case 8:
+        coordx = 0;
+        coordx = 0;
+    break;
+    case 9:
+        coordx = 0;
+        coordx = 0;
+    break;
+    case 10:
+        coordx = 0;
+        coordx = 0;
+    break;
+    case 11:
+        coordx = 0;
+        coordx = 0;
+    break;
+   return [coordx, coordy]; 
+}
+
+</script>
+
+
+
+
+
+</body>
+</html>
